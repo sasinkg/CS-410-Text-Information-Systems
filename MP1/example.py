@@ -18,9 +18,9 @@ def tokens_lowercase(doc):
     #     tokens.append(token)
     return tokens
     
-if __name__ == '__main__':
-    doc = metapy.index.Document()
-    doc.content("I said that I can't believe that it only costs $19.95! I could only find it for more than $30 before.")
-    print(doc.content()) #you can access the document string with .content()
-    tokens = tokens_lowercase(doc)
-    print(tokens)
+# if __name__ == '__main__':
+#     doc = metapy.index.Document()
+#     doc.content("I said that I can't believe that it only costs $19.95! I could only find it for more than $30 before.")
+#     print(doc.content()) #you can access the document string with .content()
+#     tokens = tokens_lowercase(doc)
+#     print(tokens)
